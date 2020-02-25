@@ -93,7 +93,7 @@ router.post('/signin', function(req, res) {
 
 router.get('/movies', function(req, res) {
     console.log(req);
-    res = req.headers;
+    res.send(req.headers);
 
 
 });
