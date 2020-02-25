@@ -134,14 +134,22 @@ router.route('/movies')
         }
     );
 */
-router.delete('/movies', function(req, res) {
+/*router.delete('/movies', function(req, res) {
     console.log(req);
     var res1 = getJSONObject(req)
     res.send({status: res1.status, message: "movie deleted", headers: res1.headers, query: res1.query, env: res1.key});
 
 
 
-});
+});*/
+
+router.route('/movies')
+    .delete(authController.isAuthenticated, function (req, res) {
+        var res1 = getJSONObject(req)
+        res.send({status: res1.status, message: "movie deleted", headers: res1.headers, query: res1.query, env: res1.key});
+        }
+    );
+
 
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
