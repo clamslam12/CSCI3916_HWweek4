@@ -19,14 +19,22 @@ function getJSONObject(req) {
     var json = {
         headers : "No Headers",
         key: process.env.UNIQUE_KEY,
-        body : "No Body"
+        body : "No Body",
+        status: 200,
+        query: "No query"
     };
+
 
     if (req.body != null) {
         json.body = req.body;
     }
     if (req.headers != null) {
         json.headers = req.headers;
+    }
+
+    if(req.query != null)
+    {
+        json.query = req.query
     }
 
     return json;
@@ -93,7 +101,9 @@ router.post('/signin', function(req, res) {
 
 router.get('/movies', function(req, res) {
     console.log(req);
-    res.send(req.headers);
+    var res1 = getJSONObject(req)
+    res.send({status: res1.status, message: "GET movies", headers: res1.headers, query: res1.query, env: res1.key});
+
 
 
 });
