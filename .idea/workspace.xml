@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="" />
+    <list default="true" id="d9ee19f9-cc16-478b-9ef6-92d5d45bbb3c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +88,7 @@
       <workItem from="1581553168173" duration="4944000" />
       <workItem from="1581983954983" duration="23000" />
       <workItem from="1581983979753" duration="2427000" />
-      <workItem from="1582584271784" duration="1924000" />
+      <workItem from="1582584271784" duration="2943000" />
     </task>
     <servers />
   </component>
@@ -102,22 +104,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="541" y="184" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582159724676" />
-    <state width="1364" height="258" key="GridCell.Tab.0.bottom" timestamp="1582584658218">
+    <state width="1364" height="258" key="GridCell.Tab.0.bottom" timestamp="1582590461852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582584658218" />
-    <state width="1364" height="258" key="GridCell.Tab.0.center" timestamp="1582584658218">
+    <state width="1364" height="258" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582590461852" />
+    <state width="1364" height="258" key="GridCell.Tab.0.center" timestamp="1582590461852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582584658218" />
-    <state width="1364" height="258" key="GridCell.Tab.0.left" timestamp="1582584658218">
+    <state width="1364" height="258" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582590461852" />
+    <state width="1364" height="258" key="GridCell.Tab.0.left" timestamp="1582590461851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582584658218" />
-    <state width="1364" height="258" key="GridCell.Tab.0.right" timestamp="1582584658218">
+    <state width="1364" height="258" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582590461851" />
+    <state width="1364" height="258" key="GridCell.Tab.0.right" timestamp="1582590461852">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1364" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582584658218" />
+    <state width="1364" height="258" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582590461852" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
