@@ -108,6 +108,15 @@ router.get('/movies', function(req, res) {
 
 });
 
+router.post('/movies', function(req, res) {
+    console.log(req);
+    var res1 = getJSONObject(req)
+    res.send({status: res1.status, message: "movie updated", headers: res1.headers, query: res1.query, env: res1.key});
+
+
+
+});
+
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
 
