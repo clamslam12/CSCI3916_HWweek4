@@ -91,6 +91,12 @@ router.post('/signin', function(req, res) {
         };
 });
 
+router.get('/movies', function(req, res) {
+    console.log(req);
+
+
+});
+
 app.use('/', router);
 app.listen(process.env.PORT || 8080);
 
